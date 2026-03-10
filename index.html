@@ -1068,7 +1068,7 @@
                         <span class="line"></span> Hey, I'm
                     </div>
                     <h1>Advait<br><span>Alinkil</span></h1>
-                    <p class="role">Full-Stack Developer</p>
+                    <p class="role">Full Stack AI Developer</p>
                     <p class="summary">
                         Building scalable, web-based AI systems using Python,
                         Node.js, and cloud services. Experienced in secure backend architectures,
@@ -1176,36 +1176,77 @@
 
     <!-- ======================== PROJECTS ======================== -->
     <section id="projects">
-        <div class="container">
-            <div class="section-label reveal">Projects</div>
-            <h2 class="section-title reveal">Things I've Built</h2>
+    <div class="container">
+        <div class="section-label reveal">Projects</div>
+        <h2 class="section-title reveal">Things I've Built</h2>
 
-            <div class="projects-grid stagger">
-                <div class="project-card reveal">
-                    <div class="project-header">
-                        <i class="fa-solid fa-database project-icon"></i>
-                        <div class="project-links">
-                            <a href="https://github.com/advait2711" target="_blank" title="GitHub"><i
-                                    class="fa-brands fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="project-title">MCP Data Assistant</h3>
-                    <p class="project-desc">
-                        A natural language database assistant enabling conversational data access without direct SQL
-                        queries.
-                        Features a secure intent-parsing backend using Google Gemini AI, ensuring query safety and data
-                        integrity.
-                    </p>
-                    <div class="exp-tags" style="margin-top: 16px;">
-                        <span class="tech-tag">Google Gemini</span>
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">SQL</span>
-                        <span class="tech-tag">React</span>
+        <div class="projects-grid stagger">
+
+            <!-- RAG Visualizer -->
+            <div class="project-card reveal">
+                <div class="project-header">
+                    <i class="fa-solid fa-brain project-icon"></i>
+                    <div class="project-links">
+                        <a href="https://qktejrreap.ap-south-1.awsapprunner.com/" target="_blank" title="Live">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        <a href="https://github.com/advait2711" target="_blank" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
                     </div>
                 </div>
+
+                <h3 class="project-title">RAG Visualizer</h3>
+
+                <p class="project-desc">
+                    Built and deployed a full-stack RAG Visualizer enabling users to upload documents and explore a
+                    step-by-step Retrieval-Augmented Generation pipeline.
+                    Supports multiple chunking strategies (fixed-size, overlapping, recursive) with LangChain text
+                    splitters, Pinecone vector embeddings, and Gemini 2.5 Flash for context-grounded Q&A.
+                    Deployed on AWS App Runner with in-memory file processing.
+                </p>
+
+                <div class="exp-tags" style="margin-top: 16px;">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">LangChain</span>
+                    <span class="tech-tag">Pinecone</span>
+                    <span class="tech-tag">Gemini</span>
+                    <span class="tech-tag">AWS App Runner</span>
+                </div>
             </div>
+
+            <!-- MCP Data Assistant -->
+            <div class="project-card reveal">
+                <div class="project-header">
+                    <i class="fa-solid fa-database project-icon"></i>
+                    <div class="project-links">
+                        <a href="https://github.com/advait2711" target="_blank" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <h3 class="project-title">MCP Data Assistant</h3>
+
+                <p class="project-desc">
+                    A natural language database assistant enabling conversational data access without direct SQL
+                    queries.
+                    Features a secure intent-parsing backend using Google Gemini AI, ensuring query safety and data
+                    integrity.
+                </p>
+
+                <div class="exp-tags" style="margin-top: 16px;">
+                    <span class="tech-tag">Google Gemini</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">SQL</span>
+                    <span class="tech-tag">React</span>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- ======================== SKILLS ======================== -->
     <section id="skills">
@@ -1249,6 +1290,8 @@
                         <span class="skill-pill">MySQL</span>
                         <span class="skill-pill">Redis</span>
                         <span class="skill-pill">Supabase</span>
+                        <span class="skill-pill">Pinecone</span>
+                        <span class="skill-pill">VectorDB</span>
                     </div>
                 </div>
 
@@ -1259,7 +1302,8 @@
                         <span class="skill-pill">AWS EC2</span>
                         <span class="skill-pill">AWS Lightsail</span>
                         <span class="skill-pill">AWS S3</span>
-                        <span class="skill-pill">Nginx</span>
+                        <span class="skill-pill">AWS S3</span>
+                        <span class="skill-pill">AWS App Runner</span>
                         <span class="skill-pill">Vercel</span>
                         <span class="skill-pill">Render</span>
                     </div>
